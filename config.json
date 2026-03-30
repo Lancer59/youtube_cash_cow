@@ -1,0 +1,41 @@
+{
+  "groq": {
+    "model": "llama-3.3-70b-versatile",
+    "temperature": 1.3
+  },
+  "script": {
+    "niche": "history",
+    "max_words": 250,
+    "min_words": 150,
+    "cta": "Follow for more history facts!"
+  },
+  "voiceover": {
+    "voice": "af_heart",
+    "speed": 1.2,
+    "lang": "en-us",
+    "model_file": "models/kokoro-v2.0.onnx",
+    "voices_file": "models/voices-v1.0.bin"
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "target_duration": 55,
+    "clips_per_keyword": 5
+  },
+  "subtitles": {
+    "enabled": true,
+    "whisper_model": "base",
+    "font_path": "C:/Windows/Fonts/arialbd.ttf",
+    "_font_path_linux": "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "font_size": 90,
+    "color": "white",
+    "stroke_color": "black",
+    "stroke_width": 4,
+    "position_y": 0.72
+  },
+  "scheduler": {
+    "run_every_hours": 24,
+    "publish_hour_utc": 18
+  }
+}

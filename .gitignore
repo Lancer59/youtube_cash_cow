@@ -1,0 +1,19 @@
+# Secrets
+.env
+token.pickle
+client_secrets.json
+
+# Kokoro model files (large binaries, download separately)
+models/kokoro-v2.0.onnx
+models/voices-v1.0.bin
+
+# Generated output
+output/
+output/clips/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/

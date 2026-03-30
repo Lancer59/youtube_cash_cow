@@ -1,0 +1,11 @@
+groq
+requests
+moviepy
+kokoro-onnx
+soundfile
+openai-whisper
+rich
+google-api-python-client
+google-auth-oauthlib
+python-dotenv
+schedule
