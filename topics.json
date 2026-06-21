@@ -1,0 +1,646 @@
+{
+  "queue": [
+    {
+      "topic": "The Black Death's Unexpected Aftermath",
+      "hint": "The plague that killed a third of Europe accidentally triggered the Renaissance and a rise in workers' wages"
+    },
+    {
+      "topic": "Nikola Tesla's Lost Tower — Wardenclyffe",
+      "hint": "Tesla tried to build a tower that would wirelessly transmit free electricity to the entire world — until his funding was cut"
+    },
+    {
+      "topic": "The Radium Girls of the 1920s",
+      "hint": "Factory workers who painted watch dials with radium were told it was safe — their fight against the company changed US labor law forever"
+    },
+    {
+      "topic": "The Siege of Constantinople (1453)",
+      "hint": "Massive cannons helped bring down the Byzantine Empire and marked the end of the Middle Ages"
+    },
+    {
+      "topic": "The Cadaver Synod (897)",
+      "hint": "A dead pope's corpse was dug up, dressed in papal robes, and put on trial"
+    },
+    {
+      "topic": "The Voynich Manuscript",
+      "hint": "A mysterious illustrated book written in an undeciphered script that still puzzles experts"
+    },
+    {
+      "topic": "The Eruption of Krakatoa (1883)",
+      "hint": "One of the loudest sounds in recorded history was heard thousands of miles away"
+    },
+    {
+      "topic": "The Salem Witch Trials",
+      "hint": "Fear, superstition, and social tensions led to executions in colonial Massachusetts"
+    },
+    {
+      "topic": "The Great Fire of London (1666)",
+      "hint": "A bakery fire transformed the city and destroyed thousands of buildings"
+    },
+    {
+      "topic": "The Lost Franklin Expedition",
+      "hint": "Two ships vanished while searching for the Northwest Passage in the Arctic"
+    },
+    {
+      "topic": "The Boxer Rebellion",
+      "hint": "A secret society's uprising against foreign influence drew armies from eight nations"
+    },
+    {
+      "topic": "The Race to the South Pole",
+      "hint": "Amundsen and Scott competed in one of history's most dangerous exploration contests"
+    },
+    {
+      "topic": "The Gunpowder Plot",
+      "hint": "A failed attempt to blow up the English Parliament inspired Guy Fawkes Day"
+    },
+    {
+      "topic": "The Bronze Age Collapse",
+      "hint": "Several advanced Mediterranean civilizations suddenly fell apart around 1200 BCE"
+    },
+    {
+      "topic": "The Children's Crusade",
+      "hint": "Thousands of young people supposedly set out to reclaim Jerusalem with tragic results"
+    },
+    {
+      "topic": "The Battle of Cannae",
+      "hint": "Hannibal executed one of the greatest military encirclements ever recorded"
+    },
+    {
+      "topic": "The Tunguska Event",
+      "hint": "A mysterious explosion flattened millions of trees in Siberia without leaving a crater"
+    },
+    {
+      "topic": "The Manhattan Project",
+      "hint": "The secret program that created the first atomic bombs"
+    },
+    {
+      "topic": "The Fall of the Knights Templar",
+      "hint": "A powerful medieval order was destroyed through arrests, torture, and political intrigue"
+    },
+    {
+      "topic": "The Mystery of Roanoke Colony",
+      "hint": "An entire English settlement vanished, leaving only one cryptic word behind"
+    },
+    {
+      "topic": "The War of Jenkins' Ear",
+      "hint": "A severed ear helped trigger a war between Britain and Spain"
+    },
+    {
+      "topic": "The Deadliest Flood in History (1931 China Floods)",
+      "hint": "Natural disasters killed millions across central China"
+    },
+    {
+      "topic": "The Mutiny on the Bounty",
+      "hint": "A famous rebellion at sea became one of history's most enduring maritime stories"
+    },
+    {
+      "topic": "The Haitian Revolution",
+      "hint": "The only successful large-scale slave revolt that created an independent nation"
+    },
+    {
+      "topic": "The Trial of Socrates",
+      "hint": "Athens sentenced one of history's greatest philosophers to death"
+    },
+    {
+      "topic": "The Fall of Tenochtitlan",
+      "hint": "The Aztec capital fell to a small Spanish force aided by native allies"
+    },
+    {
+      "topic": "The Zoot Suit Riots",
+      "hint": "Fashion became the center of racial tensions in wartime Los Angeles"
+    },
+    {
+      "topic": "The Battle of Agincourt",
+      "hint": "Outnumbered English longbowmen defeated a much larger French army"
+    },
+    {
+      "topic": "The Bhopal Disaster",
+      "hint": "A toxic gas leak became one of the worst industrial catastrophes ever"
+    },
+    {
+      "topic": "The Apollo 13 Mission",
+      "hint": "A near-fatal space accident was overcome through remarkable improvisation"
+    },
+    {
+      "topic": "The Whiskey Rebellion",
+      "hint": "One of the first major challenges to the authority of the new US government"
+    },
+    {
+      "topic": "The Stanford Prison Experiment",
+      "hint": "A controversial psychology study revealed how quickly people adopt social roles"
+    },
+    {
+      "topic": "The Berlin Airlift",
+      "hint": "Western Allies supplied an entire city by air during the Cold War"
+    },
+    {
+      "topic": "The Fall of the Berlin Wall",
+      "hint": "A mistaken announcement accelerated the end of a divided Germany"
+    },
+    {
+      "topic": "The Space Race",
+      "hint": "Cold War rivalry pushed humanity from Sputnik to the Moon"
+    },
+    {
+      "topic": "The Cuban Missile Crisis",
+      "hint": "The world came dangerously close to nuclear war in 1962"
+    },
+    {
+      "topic": "The Easter Island Mystery",
+      "hint": "How an isolated society built and transported giant stone statues"
+    },
+    {
+      "topic": "The Sinking of the Lusitania",
+      "hint": "A torpedoed ocean liner influenced public opinion during World War I"
+    },
+    {
+      "topic": "The Battle of Stalingrad",
+      "hint": "A brutal urban conflict became the turning point of World War II"
+    },
+    {
+      "topic": "The Construction of the Panama Canal",
+      "hint": "Engineering, disease control, and geopolitics reshaped global trade"
+    },
+    {
+      "topic": "The Gold Rush of 1849",
+      "hint": "A discovery in California triggered one of the largest migrations in history"
+    },
+    {
+      "topic": "The Dancing Bears of Medieval Europe",
+      "hint": "For centuries trained bears were a popular but controversial form of entertainment"
+    },
+    {
+      "topic": "The Great Molasses Flood",
+      "hint": "A giant tank burst in Boston, sending a deadly wave of molasses through the streets"
+    },
+    {
+      "topic": "The Year Without a Summer",
+      "hint": "A volcanic eruption caused global climate disruptions and crop failures"
+    },
+    {
+      "topic": "The Battle of Thermopylae",
+      "hint": "A small Greek force made a legendary stand against Persia"
+    },
+    {
+      "topic": "The Lost City of Pompeii",
+      "hint": "A volcanic eruption preserved an entire Roman city in ash"
+    },
+    {
+      "topic": "The Dreyfus Affair",
+      "hint": "A wrongful conviction exposed deep political and social divisions in France"
+    },
+    {
+      "topic": "The Cod Wars",
+      "hint": "Britain and Iceland fought several unusual disputes over fishing rights"
+    },
+    {
+      "topic": "The First Opium War",
+      "hint": "Trade conflicts and narcotics reshaped relations between China and Britain"
+    },
+    {
+      "topic": "The Suez Crisis",
+      "hint": "A canal nationalization triggered an international confrontation"
+    },
+    {
+      "topic": "The Hindenburg Disaster",
+      "hint": "A famous airship burst into flames while attempting to land"
+    },
+    {
+      "topic": "The Great Smog of London",
+      "hint": "Deadly air pollution killed thousands and changed environmental policy"
+    },
+    {
+      "topic": "The Race to Decode Enigma",
+      "hint": "Mathematicians and cryptanalysts helped shorten World War II"
+    },
+    {
+      "topic": "The War of the Bucket (1325)",
+      "hint": "A dispute between rival Italian city-states supposedly escalated over a stolen wooden bucket"
+    },
+    {
+      "topic": "The Halifax Explosion (1917)",
+      "hint": "A collision between ships carrying explosives caused one of the largest non-nuclear blasts in history"
+    },
+    {
+      "topic": "The Battle of Waterloo",
+      "hint": "Napoleon's final defeat reshaped the political map of Europe"
+    },
+    {
+      "topic": "The Dyatlov Pass Incident",
+      "hint": "Nine hikers died mysteriously in the Ural Mountains under bizarre circumstances"
+    },
+    {
+      "topic": "The Great Hedge of India",
+      "hint": "The British built a massive living barrier stretching thousands of miles to enforce a salt tax"
+    },
+    {
+      "topic": "The Battle of Midway",
+      "hint": "A decisive naval battle that shifted momentum in the Pacific during World War II"
+    },
+    {
+      "topic": "The Mystery of the Mary Celeste",
+      "hint": "A merchant ship was found abandoned at sea with no sign of its crew"
+    },
+    {
+      "topic": "The Partition of India (1947)",
+      "hint": "One of the largest migrations in human history followed the creation of two nations"
+    },
+    {
+      "topic": "The Soviet Tsar Bomba Test",
+      "hint": "The most powerful nuclear weapon ever detonated shook the Arctic sky"
+    },
+    {
+      "topic": "The Battle of Hastings",
+      "hint": "A single battle in 1066 transformed England's language, culture, and ruling class"
+    },
+    {
+      "topic": "The Lost Colony of Greenland Vikings",
+      "hint": "Norse settlements survived for centuries before mysteriously disappearing"
+    },
+    {
+      "topic": "The Indian Rebellion of 1857",
+      "hint": "A military mutiny evolved into a major uprising against British rule"
+    },
+    {
+      "topic": "The Pig War",
+      "hint": "A border dispute between Britain and the United States began with a pig being shot"
+    },
+    {
+      "topic": "The Siege of Leningrad",
+      "hint": "A city endured nearly 900 days of starvation, bombardment, and hardship"
+    },
+    {
+      "topic": "The Discovery of Machu Picchu",
+      "hint": "An ancient Inca city hidden high in the Andes captured the world's imagination"
+    },
+    {
+      "topic": "The Bizarre Life of Grigori Rasputin",
+      "hint": "A mystic gained influence over Russia's royal family and survived multiple assassination attempts"
+    },
+    {
+      "topic": "The Great Lisbon Earthquake (1755)",
+      "hint": "A catastrophic disaster changed philosophy, science, and urban planning"
+    },
+    {
+      "topic": "The Charge of the Light Brigade",
+      "hint": "A disastrous cavalry attack became immortalized in poetry and legend"
+    },
+    {
+      "topic": "The Fall of Saigon",
+      "hint": "Helicopters evacuating civilians became iconic images of the Vietnam War's end"
+    },
+    {
+      "topic": "The Rosetta Stone",
+      "hint": "A single artifact unlocked the secrets of ancient Egyptian hieroglyphs"
+    },
+    {
+      "topic": "The Siege of Vienna (1683)",
+      "hint": "A pivotal battle halted Ottoman expansion into Central Europe"
+    },
+    {
+      "topic": "The Peasants' Revolt of 1381",
+      "hint": "Ordinary people challenged feudal authority in medieval England"
+    },
+    {
+      "topic": "The Trans-Siberian Railway",
+      "hint": "The world's longest railway connected European Russia to the Pacific"
+    },
+    {
+      "topic": "The Oklahoma Land Rush",
+      "hint": "Thousands raced across open territory to claim land in a matter of hours"
+    },
+    {
+      "topic": "The Trail of Tears",
+      "hint": "Forced relocation devastated Native American communities in the United States"
+    },
+    {
+      "topic": "The Donner Party",
+      "hint": "A wagon train became trapped in the Sierra Nevada during a brutal winter"
+    },
+    {
+      "topic": "The Battle of Trafalgar",
+      "hint": "A naval victory secured British dominance of the seas for generations"
+    },
+    {
+      "topic": "The Tungning Kingdom of Taiwan",
+      "hint": "A pirate-led state resisted imperial conquest in the 17th century"
+    },
+    {
+      "topic": "The Dead Sea Scrolls Discovery",
+      "hint": "Ancient manuscripts hidden in desert caves transformed biblical scholarship"
+    },
+    {
+      "topic": "The Congo Free State",
+      "hint": "One king's private colony became notorious for exploitation and atrocities"
+    },
+    {
+      "topic": "The March of Xenophon and the Ten Thousand",
+      "hint": "Greek mercenaries fought their way home through hostile territory"
+    },
+    {
+      "topic": "The Great Fire of Rome",
+      "hint": "One of antiquity's most famous disasters became linked to Emperor Nero"
+    },
+    {
+      "topic": "The Lewis and Clark Expedition",
+      "hint": "An ambitious journey mapped vast regions of North America"
+    },
+    {
+      "topic": "The Invention of the Printing Press",
+      "hint": "A technological breakthrough transformed communication and knowledge"
+    },
+    {
+      "topic": "The Battle of Yorktown",
+      "hint": "A decisive siege effectively ended the American Revolutionary War"
+    },
+    {
+      "topic": "The Strange Case of Kaspar Hauser",
+      "hint": "A mysterious young man appeared claiming to have spent his life in isolation"
+    },
+    {
+      "topic": "The Crimean War",
+      "hint": "One of the first modern wars featured telegraphs, photography, and media coverage"
+    },
+    {
+      "topic": "The First Circumnavigation of the Globe",
+      "hint": "Magellan's expedition proved the vast scale of the Earth"
+    },
+    {
+      "topic": "The Zimmermann Telegram",
+      "hint": "A secret message helped draw the United States into World War I"
+    },
+    {
+      "topic": "The Phantom Time Hypothesis",
+      "hint": "A fringe theory claims hundreds of years of history were invented"
+    },
+    {
+      "topic": "The Battle of Tours",
+      "hint": "A Frankish victory became one of Europe's most debated turning points"
+    },
+    {
+      "topic": "The Romanovs' Final Days",
+      "hint": "Russia's last imperial family met a tragic end during revolution"
+    },
+    {
+      "topic": "The Great Train Robbery (1963)",
+      "hint": "A daring heist stole millions from a British mail train"
+    },
+    {
+      "topic": "The Discovery of King Tutankhamun's Tomb",
+      "hint": "An almost-intact royal burial sparked global fascination with ancient Egypt"
+    },
+    {
+      "topic": "The Battle of Gettysburg",
+      "hint": "Three days of fighting became a turning point in the American Civil War"
+    },
+    {
+      "topic": "The Chernobyl Disaster",
+      "hint": "A reactor explosion released radioactive contamination across Europe"
+    },
+    {
+      "topic": "The Bayeux Tapestry",
+      "hint": "A medieval embroidery tells the story of a famous conquest"
+    },
+    {
+      "topic": "The Blackbeard Legend",
+      "hint": "One pirate cultivated a terrifying image that outlived his brief career"
+    },
+    {
+      "topic": "The Great Moon Hoax of 1835",
+      "hint": "Newspapers convinced readers that astronomers had found bat-like people on the Moon"
+    },
+    {
+      "topic": "The Secret of Greek Fire",
+      "hint": "A mysterious Byzantine weapon could reportedly burn even on water"
+    },
+    {
+      "topic": "The Battle of the Teutoburg Forest",
+      "hint": "Three Roman legions were annihilated in an ambush that halted Rome's expansion into Germania"
+    },
+    {
+      "topic": "The Great Siege of Malta (1565)",
+      "hint": "A small island fortress resisted one of the Ottoman Empire's largest invasions"
+    },
+    {
+      "topic": "The St. Bartholomew's Day Massacre",
+      "hint": "Religious violence in France led to the deaths of thousands of Protestants"
+    },
+    {
+      "topic": "The South Sea Bubble",
+      "hint": "A speculative frenzy ruined investors and shook Britain's economy in 1720"
+    },
+    {
+      "topic": "The Life of Zheng He",
+      "hint": "A Chinese admiral commanded enormous treasure fleets decades before European global exploration"
+    },
+    {
+      "topic": "The Defenestrations of Prague",
+      "hint": "Political disputes were literally settled by throwing officials out of windows"
+    },
+    {
+      "topic": "The Battle of Lepanto",
+      "hint": "One of history's largest galley battles reshaped Mediterranean power"
+    },
+    {
+      "topic": "The An Lushan Rebellion",
+      "hint": "A devastating revolt nearly destroyed China's Tang Dynasty and killed millions"
+    },
+    {
+      "topic": "The Great Northern War",
+      "hint": "A coalition of rivals ended Sweden's era as a major European power"
+    },
+    {
+      "topic": "The Salem Maritime Pirates",
+      "hint": "Privateers, smugglers, and pirates blurred the lines between crime and commerce"
+    },
+    {
+      "topic": "The Lost Ninth Legion",
+      "hint": "A Roman legion vanished from historical records, inspiring centuries of speculation"
+    },
+    {
+      "topic": "The Siege of Masada",
+      "hint": "A desert fortress became a symbol of resistance against Rome"
+    },
+    {
+      "topic": "The Dutch East India Company",
+      "hint": "The world's first multinational corporation wielded powers usually reserved for governments"
+    },
+    {
+      "topic": "The Mysterious Death of Edgar Allan Poe",
+      "hint": "America's master of horror died under circumstances that remain unclear"
+    },
+    {
+      "topic": "The Battle of Austerlitz",
+      "hint": "Napoleon's greatest victory demonstrated military genius on a grand scale"
+    },
+    {
+      "topic": "The Catiline Conspiracy",
+      "hint": "A Roman plot to overthrow the Republic was exposed by Cicero's speeches"
+    },
+    {
+      "topic": "The Great Exhibition of 1851",
+      "hint": "A giant glass palace showcased the technologies of the Industrial Revolution"
+    },
+    {
+      "topic": "The Krak des Chevaliers",
+      "hint": "One of the most formidable Crusader castles ever built"
+    },
+    {
+      "topic": "The Sinking of the Andrea Doria",
+      "hint": "A luxury ocean liner collided with another ship in dense fog"
+    },
+    {
+      "topic": "The Story of Spartacus",
+      "hint": "A gladiator led one of the largest slave revolts in Roman history"
+    },
+    {
+      "topic": "The First Crusade",
+      "hint": "An unexpected military campaign captured Jerusalem against overwhelming odds"
+    },
+    {
+      "topic": "The Great Railway Strike of 1877",
+      "hint": "Labor unrest brought transportation across the United States to a standstill"
+    },
+    {
+      "topic": "The Eruption of Mount Tambora",
+      "hint": "The most powerful volcanic eruption in recorded history altered global climate"
+    },
+    {
+      "topic": "The Persian Immortals",
+      "hint": "An elite military unit maintained a constant strength of ten thousand warriors"
+    },
+    {
+      "topic": "The Meiji Restoration",
+      "hint": "Japan transformed from a feudal society into a modern industrial power"
+    },
+    {
+      "topic": "The Siege of Orleans",
+      "hint": "A young woman named Joan of Arc helped reverse the course of a war"
+    },
+    {
+      "topic": "The Battle of Gaugamela",
+      "hint": "Alexander the Great defeated a much larger Persian army and conquered an empire"
+    },
+    {
+      "topic": "The First Transatlantic Telegraph Cable",
+      "hint": "A wire laid beneath the ocean revolutionized global communication"
+    },
+    {
+      "topic": "The Great Blizzard of 1888",
+      "hint": "A sudden storm paralyzed major cities across the northeastern United States"
+    },
+    {
+      "topic": "The Story of El Dorado",
+      "hint": "A legend of gold drove explorers deep into South America"
+    },
+    {
+      "topic": "The Battle of Verdun",
+      "hint": "One of World War I's longest battles became a symbol of endurance"
+    },
+    {
+      "topic": "The Mystery of Anastasia Romanov",
+      "hint": "Rumors that a Russian princess survived fueled decades of intrigue"
+    },
+    {
+      "topic": "The Construction of Angkor Wat",
+      "hint": "The world's largest religious monument emerged from the Khmer Empire"
+    },
+    {
+      "topic": "The Great Chicago Fire",
+      "hint": "A devastating blaze reshaped a rapidly growing American city"
+    },
+    {
+      "topic": "The Siege of Jerusalem (70 CE)",
+      "hint": "Roman forces destroyed the Second Temple after a brutal siege"
+    },
+    {
+      "topic": "The Opium Clippers",
+      "hint": "Fast sailing ships played a key role in the lucrative and controversial opium trade"
+    },
+    {
+      "topic": "The Battle of the Bulge",
+      "hint": "Germany's last major offensive in Western Europe nearly split Allied lines"
+    },
+    {
+      "topic": "The Aztec Flower Wars",
+      "hint": "Ritualized conflicts were fought partly to capture prisoners rather than territory"
+    },
+    {
+      "topic": "The Discovery of Penicillin",
+      "hint": "An accidental observation revolutionized modern medicine"
+    },
+    {
+      "topic": "The Carthaginian General Hamilcar Barca",
+      "hint": "The father of Hannibal laid the foundations for Rome's greatest enemy"
+    },
+    {
+      "topic": "The Great Mississippi Flood of 1927",
+      "hint": "A natural disaster transformed American flood-control policy"
+    },
+    {
+      "topic": "The Battle of Poitiers (1356)",
+      "hint": "An English victory captured the King of France during the Hundred Years' War"
+    },
+    {
+      "topic": "The Flying Tigers",
+      "hint": "Volunteer American pilots fought in China before the US officially entered World War II"
+    },
+    {
+      "topic": "The Maya Collapse",
+      "hint": "Powerful cities were abandoned, leaving historians debating the causes"
+    },
+    {
+      "topic": "The Alaska Purchase",
+      "hint": "A deal mocked as 'Seward's Folly' later proved enormously valuable"
+    },
+    {
+      "topic": "The Battle of the Little Bighorn",
+      "hint": "A Native American coalition defeated a famous US cavalry commander"
+    },
+    {
+      "topic": "The Strange Story of the Princes in the Tower",
+      "hint": "Two royal boys vanished from the Tower of London and were never seen again"
+    },
+    {
+      "topic": "The Building of the Hoover Dam",
+      "hint": "An engineering megaproject helped tame the Colorado River"
+    },
+    {
+      "topic": "The Fall of the Han Dynasty",
+      "hint": "Internal corruption and rebellion ended one of China's greatest dynasties"
+    },
+    {
+      "topic": "The Berlin Conference",
+      "hint": "European powers divided much of Africa on maps with little regard for existing societies"
+    },
+    {
+      "topic": "The Tulip Mania of 1637",
+      "hint": "The world's first speculative financial bubble, where single tulip bulbs sold for more than a house in Holland"
+    },
+    {
+      "topic": "The Dancing Plague of 1518",
+      "hint": "Hundreds of people in Strasbourg danced uncontrollably for weeks, with some dying from exhaustion"
+    },
+    {
+      "topic": "The Great Emu War of 1932",
+      "hint": "The Australian military deployed soldiers with machine guns to cull emus — and lost"
+    },
+    {
+      "topic": "The Assassination of Archduke Franz Ferdinand",
+      "hint": "A wrong turn by a driver accidentally placed the Archduke in front of his assassin, triggering World War I"
+    }
+  ],
+  "used": [
+    {
+      "topic": "The Taiping Rebellion 1850–1864",
+      "hint": "A civil war in China led by a man who believed he was Jesus Christ's younger brother, killing 20–30 million people"
+    },
+    {
+      "topic": "Operation Mincemeat — WW2 Deception",
+      "hint": "British intelligence dressed a corpse as an officer and floated it to Nazi-occupied Spain with fake invasion plans"
+    },
+    {
+      "topic": "The Library of Alexandria — What Really Happened",
+      "hint": "The ancient world's greatest library wasn't destroyed in one dramatic fire — its decline was slow and more complicated"
+    }
+  ]
+}

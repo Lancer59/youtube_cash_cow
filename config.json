@@ -1,14 +1,55 @@
 {
+  "_comment_mode": "MODE SWITCHER — change 'active' to switch pipeline:\n  0 = Stock Footage (original: Pexels + history script)\n  1 = Reddit Story  (r/TIFU + gameplay background loop)\n  2 = Did You Know  (LLM facts + gameplay background loop)",
+  "mode": {
+    "active": 0,
+    "upgraded_subtitles": true,
+    "_comment_upgraded_subtitles": "true = chunked + colored captions (Mode 3 upgrade) for ALL modes"
+  },
+
   "groq": {
     "model": "llama-3.3-70b-versatile",
     "temperature": 1.3
   },
-  "script": {
-    "niche": "history",
-    "max_words": 250,
-    "min_words": 150,
-    "cta": "Follow for more history facts!"
+
+  "mode0_stock_footage": {
+    "_comment": "Original pipeline — history narration",
+    "_comment_video_source": "'dynamic' = fetch from Pexels API | 'static' = use static_video_path",
+    "video_source": "dynamic",
+    "static_video_path": "assets/background_mode0.mp4",
+    "script": {
+      "niche": "history",
+      "max_words": 250,
+      "min_words": 150,
+      "cta": "Follow for more history facts!"
+    },
+    "clips_per_keyword": 5
   },
+
+  "mode1_reddit_story": {
+    "_comment": "Reddit story pipeline — scrapes r/TIFU or r/AmItheAsshole",
+    "_comment_video_source": "'dynamic' = loop gameplay from Pexels API | 'static' = use static_video_path",
+    "video_source": "static",
+    "static_video_path": "assets/gameplay.mp4",
+    "subreddits": ["tifu", "AmItheAsshole", "confessions"],
+    "min_score": 1000,
+    "max_words": 260,
+    "min_words": 150,
+    "cta": "Follow for more stories!"
+  },
+
+  "mode2_did_you_know": {
+    "_comment": "Did You Know pipeline — LLM generates shocking facts",
+    "_comment_video_source": "'dynamic' = loop gameplay from Pexels API | 'static' = use static_video_path",
+    "video_source": "static",
+    "static_video_path": "assets/gameplay.mp4",
+    "_comment_niche": "Try: psychology, science, finance, history, nature",
+    "niche": "psychology",
+    "facts_per_video": 5,
+    "max_words": 230,
+    "min_words": 130,
+    "cta": "Follow for daily mind-blowing facts!"
+  },
+
   "voiceover": {
     "voice": "af_heart",
     "speed": 1.2,
@@ -16,26 +57,47 @@
     "model_file": "models/kokoro-v2.0.onnx",
     "voices_file": "models/voices-v1.0.bin"
   },
+
   "video": {
     "width": 1080,
     "height": 1920,
     "fps": 30,
-    "target_duration": 55,
-    "clips_per_keyword": 5
+    "target_duration": 55
   },
+
   "subtitles": {
     "enabled": true,
     "whisper_model": "base",
     "font_path": "C:/Windows/Fonts/arialbd.ttf",
     "_font_path_linux": "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
-    "font_size": 90,
-    "color": "white",
-    "stroke_color": "black",
-    "stroke_width": 4,
-    "position_y": 0.72
+
+    "classic": {
+      "_comment": "Used when upgraded_subtitles = false",
+      "font_size": 90,
+      "color": "white",
+      "stroke_color": "black",
+      "stroke_width": 4,
+      "position_y": 0.72
+    },
+
+    "upgraded": {
+      "_comment": "Used when upgraded_subtitles = true (Mode 3 style)",
+      "font_size": 72,
+      "words_per_chunk": 3,
+      "position_y": 0.68,
+      "stroke_color": "black",
+      "stroke_width": 4,
+      "highlight_color": "yellow",
+      "_comment_highlight": "One word per chunk gets this color for emphasis",
+      "base_color": "white"
+    }
   },
+
   "scheduler": {
+    "_comment_run_mode": "scheduled = run once every X hours | continuous = run back-to-back with no gap",
+    "run_mode": "scheduled",
     "run_every_hours": 24,
-    "publish_hour_utc": 18
+    "publish_hour_utc": 18,
+    "_comment_publish": "Hour (UTC) to schedule the YouTube upload for. Only used when YouTube upload is enabled."
   }
 }

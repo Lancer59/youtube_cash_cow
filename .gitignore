@@ -7,6 +7,10 @@ client_secrets.json
 models/kokoro-v2.0.onnx
 models/voices-v1.0.bin
 
+# Gameplay background video (download separately, see assets/README.txt)
+assets/gameplay.mp4
+assets/*.mp4
+
 # Generated output
 output/
 output/clips/
