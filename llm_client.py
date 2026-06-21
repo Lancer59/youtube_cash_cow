@@ -100,6 +100,12 @@ def chat(messages: list, temperature: float = 1.0, max_tokens: int = 2048):
                 temperature=temperature,
                 max_tokens=max_tokens,
             )
+
+            # Guard: some providers return null content on free tier
+            content = response.choices[0].message.content if response.choices else None
+            if not content:
+                raise ValueError(f"Empty/null content returned by {provider['name']} ({model})")
+
             return response
 
         except Exception as e:

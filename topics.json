@@ -1,22 +1,6 @@
 {
   "queue": [
     {
-      "topic": "The Black Death's Unexpected Aftermath",
-      "hint": "The plague that killed a third of Europe accidentally triggered the Renaissance and a rise in workers' wages"
-    },
-    {
-      "topic": "Nikola Tesla's Lost Tower — Wardenclyffe",
-      "hint": "Tesla tried to build a tower that would wirelessly transmit free electricity to the entire world — until his funding was cut"
-    },
-    {
-      "topic": "The Radium Girls of the 1920s",
-      "hint": "Factory workers who painted watch dials with radium were told it was safe — their fight against the company changed US labor law forever"
-    },
-    {
-      "topic": "The Siege of Constantinople (1453)",
-      "hint": "Massive cannons helped bring down the Byzantine Empire and marked the end of the Middle Ages"
-    },
-    {
       "topic": "The Cadaver Synod (897)",
       "hint": "A dead pope's corpse was dug up, dressed in papal robes, and put on trial"
     },
@@ -641,6 +625,22 @@
     {
       "topic": "The Library of Alexandria — What Really Happened",
       "hint": "The ancient world's greatest library wasn't destroyed in one dramatic fire — its decline was slow and more complicated"
+    },
+    {
+      "topic": "The Black Death's Unexpected Aftermath",
+      "hint": "The plague that killed a third of Europe accidentally triggered the Renaissance and a rise in workers' wages"
+    },
+    {
+      "topic": "Nikola Tesla's Lost Tower — Wardenclyffe",
+      "hint": "Tesla tried to build a tower that would wirelessly transmit free electricity to the entire world — until his funding was cut"
+    },
+    {
+      "topic": "The Radium Girls of the 1920s",
+      "hint": "Factory workers who painted watch dials with radium were told it was safe — their fight against the company changed US labor law forever"
+    },
+    {
+      "topic": "The Siege of Constantinople (1453)",
+      "hint": "Massive cannons helped bring down the Byzantine Empire and marked the end of the Middle Ages"
     }
   ]
 }

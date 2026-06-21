@@ -95,7 +95,7 @@
 
   "scheduler": {
     "_comment_run_mode": "scheduled = run once every X hours | continuous = run back-to-back with no gap",
-    "run_mode": "scheduled",
+    "run_mode": "continuous",
     "run_every_hours": 24,
     "publish_hour_utc": 18,
     "_comment_publish": "Hour (UTC) to schedule the YouTube upload for. Only used when YouTube upload is enabled."

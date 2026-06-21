@@ -123,7 +123,7 @@ TAGS:
         messages=[{"role": "user", "content": prompt}],
         temperature=cfg["temperature"],
     )
-    raw_text = response.choices[0].message.content
+    raw_text = response.choices[0].message.content or ""
 
     def extract(label):
         try:

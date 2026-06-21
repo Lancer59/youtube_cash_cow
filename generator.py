@@ -85,7 +85,7 @@ SEARCH_KEYWORDS:
             messages=[{"role": "user", "content": prompt}],
             temperature=groq_cfg["temperature"],
         )
-        raw = response.choices[0].message.content
+        raw = response.choices[0].message.content or ""
         data = _parse_response(raw, include_keywords=True)
         word_count = len(data["script"].split())
         logger.info(f"Script word count: {word_count} (attempt {attempt}/3)")
@@ -169,7 +169,7 @@ TAGS:
             messages=[{"role": "user", "content": prompt}],
             temperature=groq_cfg["temperature"],
         )
-        raw = response.choices[0].message.content
+        raw = response.choices[0].message.content or ""
         data = _parse_response(raw, include_keywords=False)
         word_count = len(data["script"].split())
         logger.info(f"Script word count: {word_count} (attempt {attempt}/3)")
@@ -237,7 +237,7 @@ HASHTAGS:
             messages=[{"role": "user", "content": prompt}],
             temperature=0.7,
         )
-        raw = response.choices[0].message.content
+        raw = response.choices[0].message.content or ""
         description = _parse_description(raw)
         logger.success("Description generated")
         return description
@@ -249,6 +249,9 @@ HASHTAGS:
 
 def _parse_description(raw: str) -> str:
     """Assembles the full description string from the second LLM response."""
+    if not raw:
+        return ""
+
     def extract(label):
         try:
             start = raw.index(f"{label}:") + len(f"{label}:")
@@ -291,6 +294,10 @@ def _parse_description(raw: str) -> str:
 # ---------------------------------------------------------------------------
 
 def _parse_response(raw: str, include_keywords: bool = True) -> dict:
+    """Parse LLM response. Returns empty-field dict if raw is None or malformed."""
+    if not raw:
+        return {"script": "", "title": "", "description": "", "tags": [], "keywords": []}
+
     def extract(label):
         try:
             start = raw.index(f"{label}:") + len(f"{label}:")
@@ -309,11 +316,11 @@ def _parse_response(raw: str, include_keywords: bool = True) -> dict:
         "script": extract("SCRIPT"),
         "title": extract("TITLE"),
         "description": extract("DESCRIPTION"),
-        "tags": [t.strip() for t in extract("TAGS").split(",")],
+        "tags": [t.strip() for t in extract("TAGS").split(",") if t.strip()],
         "keywords": []
     }
     if include_keywords:
-        result["keywords"] = [k.strip() for k in extract("SEARCH_KEYWORDS").split(",")]
+        result["keywords"] = [k.strip() for k in extract("SEARCH_KEYWORDS").split(",") if k.strip()]
     return result
 
 

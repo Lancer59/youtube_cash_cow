@@ -100,7 +100,18 @@ def run_pipeline():
     # Step 6: Upload to YouTube
     # ------------------------------------------------------------------
     logger.step(6, TOTAL_STEPS, "Uploading to YouTube...")
-    publish_time = next_publish_time(hour=get()["scheduler"]["publish_hour_utc"])
+
+    run_mode = get()["scheduler"].get("run_mode", "scheduled")
+
+    if run_mode == "continuous":
+        # Continuous mode → publish immediately as public, no scheduling
+        publish_time = None
+        logger.info("Continuous mode — uploading as PUBLIC immediately")
+    else:
+        # Scheduled mode → set future publish time
+        publish_time = next_publish_time(hour=get()["scheduler"]["publish_hour_utc"])
+        logger.info(f"Scheduled mode — video will go public at {publish_time.strftime('%Y-%m-%d %H:%M UTC')}")
+
     video_id = upload_video(
         video_path=video_path,
         title=data["title"],
